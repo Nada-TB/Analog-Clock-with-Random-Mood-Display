@@ -1,0 +1,81 @@
+body{
+    width: 100%;
+    background-color:#ddffcc;
+}
+
+#clock{
+    width: 200px;
+    margin: 50px auto;
+    position:relative;  
+}
+
+#circle1, #circle2, #circle3{
+    width: 200px;
+    height: 200px;
+    right:0;
+    left:0;
+    border: 20px solid blue;
+    border-radius: 50%;
+    box-shadow: 3px 4px 5px #b3b3b3;
+    position: absolute;
+}
+  
+  
+#line1, #line2, #line3{
+    position: absolute;
+    width:100px;
+    height:100px;
+    top:0;
+    left:97.25px;
+    border-left: 5px solid black; 
+}
+
+#line2{
+    border-color:red; 
+}
+  
+#line1{
+    height:85px;
+    top:16px;
+}
+  
+#line3{
+    border-width:3px;
+}
+  
+#message{
+    position: absolute;
+    right:-2px;
+    top:64px;
+    z-index:-2;
+}
+  
+#message input{
+    position:absolute;
+    top:40px;
+    left:7px;
+    background-color:yellow;
+    font-size:small;
+    border:1px solid grey;
+    width:50px;
+    text-align:center;
+}
+
+footer {
+    position:fixed;
+    bottom:15px;
+    text-align: center;
+    right:33%;
+    width:33%;
+}
+
+
+@media screen and (max-width: 640px){
+    footer{
+        width: 50%;
+        right:25%;
+        font-size: 0.8em;
+    }
+}
+
+
