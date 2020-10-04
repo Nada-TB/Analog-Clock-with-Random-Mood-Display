@@ -1,6 +1,6 @@
 # A realtime clock :
 
-## view result here : [codepen](https://codepen.io/Nada_T/pen/PoPpMZy)
+## view result here : [Link](https://nada-tb.github.io/real_time_clock/)
 
 ## Programming concepts applied:
 CSS|javaScript
